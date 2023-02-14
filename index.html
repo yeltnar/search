@@ -5,12 +5,23 @@
 			document.querySelector('div').innerText=window.location.href;
 	})
 	</script>
+	<script>
+		GM_info = {
+			platform:{
+				os: 'notgm'
+			}
+		}
+		function GM_openInTab(){
+			console.log('capture GM_openInTab')
+		}
+	</script>
 	<link 
 		href="https://yeltnar.github.io/search/opensearch.xml" 
 		rel="search" 
 		title="Yeltnar Search" 
 		type="application/opensearchdescription+xml"
 	>
+	<script src="https://yeltnar.github.io/tampermonkey_scripts/search_redirect.user.js" ></script>
 </head>
 <body>
 	<div></div>
