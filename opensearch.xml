@@ -1,10 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-<ShortName>Yeltnar Search</ShortName>
-<Description>Yeltnar</Description>
-<InputEncoding>UTF-8</InputEncoding>
-<!-- <Image width="16" height="16" type="image/x-icon">https://www.startpage.com/assets/images/logo-16x16.png</Image> -->
-<Query role="example" searchTerms="cat" />
-<Url type="text/html" template="https://yeltnar.github.io/search?yeltnarsearch&amp;q={searchTerms}"></Url>
-<!-- <Url type="application/x-suggestions+json" rel="suggestions" template="https://www.startpage.com/suggestions?q={searchTerms}&amp;format=opensearch"/> -->
+<OpenSearchDescription 
+    xmlns="http://a9.com/-/spec/opensearch/1.1/"
+    xmlns:moz="http://www.mozilla.org/2006/browser/search/"
+    >
+
+    <ShortName>Yeltnar Search</ShortName>
+    <Description>Yeltnar</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+
+    <!-- <Image width="16" height="16" type="image/x-icon">https://www.startpage.com/assets/images/logo-16x16.png</Image> -->
+    
+    <Query role="example" searchTerms="cat" />
+    <Url type="text/html" template="https://yeltnar.github.io/search?yeltnarsearch&amp;q={searchTerms}"></Url>
+    
+    <!-- <Url type="application/x-suggestions+json" rel="suggestions" template="https://www.startpage.com/suggestions?q={searchTerms}&amp;format=opensearch"/> -->
+    
 </OpenSearchDescription>
