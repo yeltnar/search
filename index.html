@@ -2,8 +2,22 @@
 	<script>
 	window.addEventListener('load',()=>{
 			console.log(window.location.href);
-			document.querySelector('div').innerText=window.location.href;
-	})
+
+      const currentUrl = new URL(window.location.href);
+      currentUrl.searchParams.delete('redirectdone');
+      const new_link = currentUrl.toString();
+
+			const lediv = document.querySelector('div');
+
+      const href_div = document.createElement('a');
+      href_div.innerText=new_link;
+      href_div.href = new_link;
+      href_div.style.color = 'white';
+      lediv.appendChild(href_div);
+
+      lediv.appendChild(href_div);
+  })
+
 	</script>
 	<style>
 		body{
