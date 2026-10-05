@@ -10,7 +10,7 @@
     <!-- <Image width="16" height="16" type="image/x-icon">https://www.startpage.com/assets/images/logo-16x16.png</Image> -->
     
     <Query role="example" searchTerms="cat" />
-    <Url type="text/html" template="https://yeltnar.github.io/search?yeltnarsearch&amp;q={searchTerms}"></Url>
+    <Url type="text/html" template="https://redirect.andbrant.com/?yeltnarsearch&amp;q={searchTerms}"></Url>
     
     <!-- <Url type="application/x-suggestions+json" rel="suggestions" template="https://www.startpage.com/suggestions?q={searchTerms}&amp;format=opensearch"/> -->
     
